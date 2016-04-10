@@ -27904,10 +27904,10 @@
 					return;
 				}
 				var toPage = evt.target.innerText;
-				if (toPage == "芦") {
+				if (toPage == "«") {
 					toPage = 1;
 				}
-				if (toPage == "禄") {
+				if (toPage == "»") {
 					toPage = this.props.total - 1;
 				}
 				var criteria = this.props.criteria;
@@ -27964,7 +27964,7 @@
 							_react2.default.createElement(
 								'span',
 								{ 'aria-hidden': 'true' },
-								'芦'
+								'«'
 							)
 						)
 					),
@@ -27978,7 +27978,7 @@
 							_react2.default.createElement(
 								'span',
 								{ 'aria-hidden': 'true' },
-								'禄'
+								'»'
 							)
 						)
 					)
